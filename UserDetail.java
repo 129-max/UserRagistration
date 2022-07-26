@@ -3,7 +3,7 @@ public class UserDetail {
 
     public static void main(String[] args) {
         UserDetail userDetail = new UserDetail();
-        boolean isFNameValid = userDetail.checkFName("Pawan");
+        boolean isFNameValid = userDetail.checkFName("Mohit");
         if(isFNameValid == true)
         {
             System.out.println("First Name is Valid");
